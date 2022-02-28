@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-container {
+  width: 80%;
+  margin: auto;
+}
+.header-logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+.header-nav {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header-ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  display: flex;
+}
+.li {
+  margin: 0 30px;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.main-section1 {
+  display: inline-block;
+
+  margin-left: 100px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.main-section1 img {
+  border-radius: 50%;
+}
+
+.main-div {
+  width: 80%;
+  margin: auto;
+  padding: 15px 0;
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+}
+.main-section2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-left: 20px;
+}
+.main-p1 {
+  margin-top: 20px;
+  line-height: 150%;
+}
+.photes {
+  display: flex;
+
+  background-color: white;
+  padding-top: 50px;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+
+  border-radius: 5px;
+
+  margin-top: 60px;
+}
+.photes img {
+  border-radius: 20px;
+}
+#photo:hover {
+  box-shadow: 50px -16px teal;
+  transition: 0.5s;
+}
+
+#a {
+  margin: 11px;
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+  padding: 0 20px;
+  transition: 0.5s;
+}
+#a:hover {
+  background-color: rgba(2, 49, 69, 1);
+  border-left: 5px solid red;
+  border-right: 5px solid red;
+  color: white;
+}
+.notebook {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  width: 80%;
+  margin: auto;
+  padding-top: 60px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+#box {
+  width: 500px;
+  height: 370px;
+
+  text-align: center;
+
+  background-color: rgba(2, 49, 69, 1);
+}
+.notebook img {
+  border-radius: 20px;
+}
+#box a {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+
+  margin: 0 auto;
+  transition: 1s;
+}
+
+#box a:hover {
+  box-shadow: 12px 12px 2px 1px rgba(231, 255, 17, 0.2);
+  border: 2px solid rgb(245, 242, 242);
+}
+.skills {
+  margin: auto;
+  font-size: 1.5em;
+
+  width: 80%;
+  margin-top: 50px;
+  background-color: rgb(249, 252, 252);
+  display: flex;
+  justify-content: space-around;
+}
+.skills ul {
+  list-style: none;
+}
+.footer-section {
+  background-color: rgb(19, 88, 88);
+  height: 100px;
+  margin-top: 60px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2em;
+}
+footer h2 {
+  font-size: 2em;
+  color: rgb(230, 255, 8);
+}
